@@ -11,7 +11,7 @@ int main(void){
     // b = true;
     b = false;
 
-    printf("o tamanho de b (bool) é: %lu\n", sizeof b);
+    printf("o tamanho de b (bool) é: %zu\n", sizeof b);
     printf("o valor de b é: %i\n", b);
 
     return 0;
