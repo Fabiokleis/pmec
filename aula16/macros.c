@@ -28,6 +28,11 @@ int main(void){
      printf("date: %s: time:%s estou na linha %d\n", __DATE__, __TIME__, __LINE__); // macros de stdio.h
      VAR(cnt);
 #endif
+    
+    void *p = (void*)0; // NULL definicoa de null em C
+    
+    if(p == NULL)
+        printf("p é nulo\n");
 
     return 0;
 }
